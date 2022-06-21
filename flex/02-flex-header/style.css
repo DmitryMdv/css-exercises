@@ -1,7 +1,23 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
+
+.left-links ul,
+.right-links ul  {
+  display: flex;
+  align-items: center;
+  padding-inline-start: 0;
+}
+
+.header div ul li {
+  display: block;
+  margin: 0.5em;
+}
+
 
 .logo {
   font-size: 48px;
@@ -9,6 +25,7 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
+  margin: 0.1em;
 }
 
 ul {
